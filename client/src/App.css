@@ -1,0 +1,36 @@
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.nav2 {
+  top: 0;
+  left: 0;
+  height: 1100px;
+  margin-top: -1090px;
+  width: 360px;
+  padding: 50px;
+  padding-top: 200px;
+  gap: 50px;
+
+ 
+  
+  background-color:transparent;
+  backdrop-filter: blur(30px);
+  
+  translate: -10% 100% ;
+  transition: translate 1s ease-in-out;
+}
